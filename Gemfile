@@ -7,19 +7,19 @@ gem 'html-proofer', '~> 3.16', '>= 3.16.0'
 gem 'jekyll', '>=3.1.6'
 gem 'jekyll-paginate'
 gem 'jekyll-redirect-from'
-gem 'puma'
+gem 'puma', '>= 5.6.8'
 gem 'pry', group: :test
 gem 'rack', '~> 1.0'
 gem 'rack-jekyll'
 gem 'rack-ssl-enforcer'
 gem 'rake'
 gem 'rdiscount', '>=2.2.0.1'
-gem 'rubocop', group: :test
+gem 'rubocop', '>= 0.87.0', group: :test
 
 
 # All of this is for Slate / middleman
 
-gem "middleman", "~> 4.0", ">= 4.0.0"
+gem "middleman", "~> 4.4", ">= 4.4.0"
 
 # For syntax highlighting
 gem "middleman-syntax", ">= 3.3.0"
@@ -31,7 +31,7 @@ gem 'middleman-gh-pages'
 gem "middleman-livereload", ">= 3.4.7"
 
 # Needed for Slate / middleman
-gem 'redcarpet'
+gem 'redcarpet', '>= 3.5.1'
 
 # Cross-templating language block fix for Ruby 1.8
 platforms :mri_18 do
