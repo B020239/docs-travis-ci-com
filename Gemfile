@@ -3,8 +3,8 @@ source 'https://rubygems.org'
 ruby '2.6.3'
 
 gem 'faraday'
-gem 'html-proofer', '~> 3.16', '>= 3.16.0'
-gem 'jekyll', '>=3.1.6'
+gem 'html-proofer', '~> 3.19', '>= 3.19.3'
+gem 'jekyll', '>= 3.9.0'
 gem 'jekyll-paginate'
 gem 'jekyll-redirect-from'
 gem 'puma'
@@ -19,7 +19,7 @@ gem 'rubocop', group: :test
 
 # All of this is for Slate / middleman
 
-gem "middleman", "~> 4.0", ">= 4.0.0"
+gem "middleman", "~> 4.4", ">= 4.4.0"
 
 # For syntax highlighting
 gem "middleman-syntax", ">= 3.3.0"
